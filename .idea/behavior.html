@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Just a generic page</title>
+    <script>
+        function bark(name, weight){
+            if (weight > 20){
+                document.write(name+"는 월월 짖습니다");
+
+            }else{
+                document.write(name+"은 멍멍 짖습니다");
+            }
+        }
+        bark("멍돌이", 20);
+        bark("쿠키", 10);
+        bark("브루노", 21);
+        bark("쁘꾸", -1);
+        bark("삐삐", 0,0);
+        bark("누렁이", "20");
+
+        function doit(para) {
+            var wow=para;
+            var wow = 2;
+            return wow;
+        }
+        var test = 1;
+        var flavors = [1,2,3,4,5];
+        numFlavors = flavors.length;
+        test=doit(test);
+        alert(test);
+        var genre = [];
+        genre.push("locavelly");
+        genre.push("bossanova");
+        genre.push("ballad");
+        var size = genre.length;
+        alert(size);
+        alert(genre[0]);
+    </script>
+</head>
+<body>
+<h1> 일반적인 제목 부분이다</h1>
+<p>별 볼일 없습니다. 나는 그저 자바스크립트 책의 예제에 형식적으로 들어있는 문장입니다 뭔가 재미있는게 없을까?</p>
+
+</body>
+</html>
